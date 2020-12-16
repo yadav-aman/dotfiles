@@ -1,0 +1,32 @@
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias ll='ls -lah --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+alias ch='cd /mnt/c/Users/AMAN\ YADAV/Desktop/Nuclear\ Codes/Codes'
+alias tl='task list'
+
+#git aliases
+alias g='git'
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gaa='git add --all'
+alias gb='git branch'
+alias gd='git diff'
+alias glog='git log --oneline --graph'
+alias gl='git log --graph'
+alias gf='git fetch'
+alias gp='git pull'
+alias grso='git remote show origin'
+alias gbare='/usr/bin/git --git-dir=/home/legion/dotfiles.git --work-tree=/home/legion'
