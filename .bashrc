@@ -152,5 +152,3 @@ export PATH="${PATH}:/home/legion/.local/bin"
 export EDITOR=vim
 # function to copy a file to host
 function cphost { cp "$1" /mnt/c/Users/AMAN\ YADAV/Desktop/Nuclear\ Codes/wsl-files; }
-# function to move to my folder in host
-function cdhost { cd /mnt/c/Users/AMAN\ YADAV/Desktop/Nuclear\ Codes/Codes; }
