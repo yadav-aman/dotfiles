@@ -28,7 +28,7 @@ set laststatus=2
 " This will mark extra whitespace as bad and probably color it red.
 "au BufRead, BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
-"set colorcolumn=80
+set colorcolumn=80
 "highlight ColorColumn ctermbg=0 guibg=lightgreen
 
 set rtp+=~/.vim/bundle/Vundle.vim
