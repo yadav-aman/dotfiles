@@ -3,6 +3,7 @@ syntax on
 set nocompatible 
 set tabstop=4 softtabstop=4
 set shiftwidth=4
+set noerrorbells
 set expandtab
 set smartindent 
 " above line will also indent the code pasted from clipboard so to avoid that use F3 to toggle paste

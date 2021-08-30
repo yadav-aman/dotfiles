@@ -9,18 +9,18 @@ fi
 # ----------------------------------
 # Colors (custom code)
 # ----------------------------------
-DARKGRAY='\033[1;30m'
-LIGHTRED='\033[1;31m'
-# ----------------------------------
-echo -e "${LIGHTRED}   ▄████████ ${DARKGRAY}  ▄▄▄▄███▄▄▄▄      ▄████████ ███▄▄▄▄   "
-echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}▄██▀▀▀███▀▀▀██▄   ███    ███ ███▀▀▀██▄ "
-echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
-echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
-echo -e "${LIGHTRED}▀███████████ ${DARKGRAY}███   ███   ███ ▀███████████ ███   ███ "
-echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
-echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
-echo -e "${LIGHTRED}  ███    █▀  ${DARKGRAY} ▀█   ███   █▀    ███    █▀   ▀█   █▀  "
-echo ""
+#DARKGRAY='\033[1;30m'
+#LIGHTRED='\033[1;31m'
+## ----------------------------------
+#echo -e "${LIGHTRED}   ▄████████ ${DARKGRAY}  ▄▄▄▄███▄▄▄▄      ▄████████ ███▄▄▄▄   "
+#echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}▄██▀▀▀███▀▀▀██▄   ███    ███ ███▀▀▀██▄ "
+#echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
+#echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
+#echo -e "${LIGHTRED}▀███████████ ${DARKGRAY}███   ███   ███ ▀███████████ ███   ███ "
+#echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
+#echo -e "${LIGHTRED}  ███    ███ ${DARKGRAY}███   ███   ███   ███    ███ ███   ███ "
+#echo -e "${LIGHTRED}  ███    █▀  ${DARKGRAY} ▀█   ███   █▀    ███    █▀   ▀█   █▀  "
+#echo ""
 
 
 autoload -Uz promptinit
