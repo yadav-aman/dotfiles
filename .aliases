@@ -12,7 +12,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-alias ch='cd /mnt/c/Users/AMAN\ YADAV/Desktop/Nuclear\ Codes/Codes'
+alias ch='cd /mnt/c/Users/AMAN\ YADAV/Desktop'
 alias tl='task list'
 
 #git aliases

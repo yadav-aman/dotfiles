@@ -83,6 +83,8 @@ source ~/.zsh-plugins/themes/powerlevel10k/powerlevel10k.zsh-theme
 export PATH="${PATH}:/home/legion/.local/bin"
 # function to copy a file to host
 function cphost { cp "$1" /mnt/c/Users/AMAN\ YADAV/Desktop/Nuclear\ Codes/wsl-files; }
+# function to copy a folder to host
+function cpdhost { cp -r "$1" /mnt/c/Users/AMAN\ YADAV/Desktop/Nuclear\ Codes/wsl-files; }
 # function to cd followed by ls
 function cs() { cd "$1" && ls -l --color=auto; }
 # cheat.sh function
@@ -97,3 +99,5 @@ export EDITOR=vim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export PATH="/home/legion/.deta/bin:$PATH"
